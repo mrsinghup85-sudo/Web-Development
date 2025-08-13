@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Page</title>
+  <style>
+    body {
+      background-color: black;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      background-color: aquamarine;
+      color: black;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    img {
+      height: 200px;
+      width: 150px;
+      object-fit: cover;
+      border: 2px solid white;
+    }
+
+    .iframe-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin: 20px;
+    }
+
+    audio {
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, this is the first line of HTML code</h1>
+
+  <div class="image-container">
+    <img src="premanand g.webp" alt="Premanand G image" />
+  </div>
+
+  <div class="iframe-container">
+    <iframe
+      title="Wikipedia page for Avocados"
+      src="https://en.wikipedia.org/wiki/Avocado"
+      width="600"
+      height="400"
+      frameborder="0"
+    ></iframe>
+
+    <iframe
+      src="https://www.youtube.com/embed/zyplM_r4lFk?start=1"
+      width="560"
+      height="315"
+      frameborder="0"
+      allowfullscreen
+      title="YouTube Video"
+    ></iframe>
+  </div>x
+
+  <audio controls>
+    <source src="mast-nazroon-se-allah-bachhae.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
