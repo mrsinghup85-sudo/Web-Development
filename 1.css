@@ -1,0 +1,19 @@
+h2{
+    font-size:60px;
+    /*this is a cmnt*/
+    color: rgb(236, 99, 31);
+}
+h1{
+    background-color: white;
+}
+#first{
+    color: chocolate;
+    font-size: large;
+    font-weight:{1,2};
+}
+#second{
+    color: crimson;
+    font-size: 22px;
+    font-style: oblique;
+}
+
